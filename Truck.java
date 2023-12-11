@@ -12,4 +12,8 @@ class Truck extends Vehicle {
         System.out.println("I'm a " + Brand + " " + Model + " made in " + Year +".");
         System.out.println("I'm a Truck, I weight " + Weight + " kg and I have " + Wheels + " wheels.");
     }
+    public void accelerate(String Onoma) {
+        System.out.print("My " + Brand + " goes like this : ");
+        System.out.println(Onoma);
+    }
 }
